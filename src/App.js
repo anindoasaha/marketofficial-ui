@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as A from './client/main';
+import Client from './client/ProductCatalogClient';
 
 class App extends Component {
   render() {
 
-
-      console.log(A);
-
-
+    new Client().listProducts();
 
     return (
       <div className="App">
