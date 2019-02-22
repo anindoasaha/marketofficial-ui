@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as A from './client/main';
 
 class App extends Component {
   render() {
+
+
+      console.log(A);
+
+
+
     return (
       <div className="App">
         <header className="App-header">
